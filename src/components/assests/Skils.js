@@ -39,7 +39,7 @@ const Skils = () => {
           </div>
           <h4>Backend</h4>
 
-          <svg
+          <svg  className="svg"
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
             width="160px"
@@ -62,7 +62,7 @@ const Skils = () => {
             </div>
           </div>
             <h4>Frontend</h4>
-          <svg
+          <svg className="svg"
             xmlns="http://www.w3.org/2000/svg"
             version="1.1"
             width="160px"
