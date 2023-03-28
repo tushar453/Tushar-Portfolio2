@@ -1,0 +1,117 @@
+.containerer{
+    background: #000;
+    height: 90vh;
+    width: 100%;
+    overflow: hidden;
+    
+    display: grid;
+    grid-template-columns: 1fr;
+    
+    align-items: center;
+   justify-content: center; 
+   grid-template-columns:  1fr;
+
+    
+}
+
+.skills-content{
+    width: 100px;
+    margin: 30px auto;
+}
+.skills{
+    width: 160px;
+    height:160px; 
+  
+    position: relative;
+    
+    margin: 40px;
+}
+.skillls{
+    width: 80%;
+   border: 1px solid black;
+    display: flex;
+    height: 90%;
+    margin:40px auto;
+    align-items: center;
+    justify-content: center;
+    background: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    
+    
+
+}
+
+
+.outerer{
+    height: 160px;
+    width: 160px;
+    border-radius: 50%;
+   box-shadow: 6px 6px 10px -1px rgba(0,0,0,0.15),
+     1px -1px 0px -3px rgba(255,255,255,0.7)
+   ;
+    padding: 20px;
+}
+
+.innerer{
+    height: 120px;
+    width: 120px;
+    display: flex;
+    align-items: center;
+    border-radius: 50%;
+    justify-content: center;
+   box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,0.2),
+             inset -4px -4px -1px -1px rgba(255,255,255,0.7),
+             0.5px 0.5px 0.5px 0px rgba(0,0,0,0.15),
+             0px 12px 10px -10px rgba(0,0,0,0.05)
+   
+   ;
+}
+
+#number{
+    font-weight: 600px;
+    color:#fff;   
+}
+#number1{
+    font-weight: 600px;
+    color: #fff;
+}
+
+circle{
+    fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 470;
+    stroke-dashoffset:470;
+     animation: anim 2s linear forwards;
+
+}
+.second-circle{
+     fill: none;
+    stroke: url(#GradientColor);
+    stroke-width: 20px;
+    stroke-dasharray: 470;
+    stroke-dashoffset:470;
+     animation: anima 2s linear forwards;
+}
+@keyframes anim {
+    100%{
+        stroke-dashoffset:165; 
+    }
+} 
+
+@keyframes anima{
+    100%{
+        stroke-dashoffset: 100;
+    }
+}
+    
+
+
+svg{
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+}
