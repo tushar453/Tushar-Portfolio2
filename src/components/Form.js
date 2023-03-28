@@ -12,26 +12,24 @@ const Form = () => {
   const[message ,setMessage] = useState("");
   const[nameerr ,setNameerr] = useState(true);
   const[emailerr ,setEmailerr] = useState(true);
-  const submit = async(e)=>{
+  const submit = (e)=>{
     e.preventDefault();
-    const userId =JSON.parse(localStorage.getItem('details')) ;
-    // console.warn(userId._id);
+//     const userId =JSON.parse(localStorage.getItem('details')) ;
+//      console.warn(userId._id);
    
-   let result =await fetch('http://localhost:4500/save',{
-method:'post',
-body:JSON.stringify({name,email,subject,message}),
-headers:{
-'Content-Type':'application/json'
-}, 
-});
-result = await result.json();
-console.warn(result);
-localStorage.setItem("user",JSON.stringify(result));
+//    let result =await fetch('http://localhost:4500/save',{
+// method:'post',
+// body:JSON.stringify({name,email,subject,message}),
+// headers:{
+// 'Content-Type':'application/json'
+// }, 
+// });
+// result = await result.json();
+// console.warn(result);
+// localStorage.setItem("user",JSON.stringify(result));
 
  navigate('/')
     alert("your message is submitted");
-
-
 
   }
 
