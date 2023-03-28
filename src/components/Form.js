@@ -27,10 +27,10 @@ headers:{
 result = await result.json();
 console.warn(result);
 localStorage.setItem("user",JSON.stringify(result));
-if(result){
+
  navigate('/')
     alert("your message is submitted");
-}
+
 
 
   }
