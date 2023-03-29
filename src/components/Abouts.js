@@ -19,9 +19,9 @@ const Abouts = () => {
     <div className="right">
    
        <div className="image-container">
-        <div className="img-stack top">
+        
        <img classname= "img"src={Introi} alt="Introimg" />
-       </div>
+      
        </div>
     </div>
     </div>
