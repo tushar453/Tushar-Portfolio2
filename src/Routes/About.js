@@ -9,7 +9,7 @@ const About = () => {
     <div>
     <Navbar/>
     
-    {<Hero2 heading = "About Me" text = "I'M a fronted developer"/>}
+    {<Hero2 heading = "About Me" text = "I'm a mern developer"/>}
     <Skils/>
 
     <Abouts/>
