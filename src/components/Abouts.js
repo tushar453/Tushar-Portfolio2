@@ -8,7 +8,12 @@ const Abouts = () => {
     <div className="about">
     <div className="left">
    <h3>Who Am I?</h3>
-   <p>I Am a Fronted Developer And Photographer</p>
+   <p>Hello and welcome ! This Is Tusharkant Sharma.I am from Jaipur Rajasthan.Currently I am studying in National 
+   Institute of Techonolgy , Hamirpur, Himachal Pradesh.My field of Study Is Engineering Physics.I am a MERN developer.
+   I love creativity.
+  
+
+   </p>
    <NavLink to="/contact"><button className="btn">Contact</button></NavLink>
     </div>
     <div className="right">
