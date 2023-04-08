@@ -3,9 +3,9 @@ import React from "react";
 import Introimg from "../components/assests/image.jpg";
 import { NavLink } from "react-router-dom";
 import Typewriter from "typewriter-effect";
-import Particles from "react-tsparticles";
+// import Particles from "react-tsparticles";
 import particlesConfig from "./particles-config";
-
+import Particles from './Particles';
 const Hero = () => {
   
   return (
@@ -46,7 +46,7 @@ const Hero = () => {
       </div>
       
 
-
+      <Particles id="tsparticles" />
 
     </div> 
    
