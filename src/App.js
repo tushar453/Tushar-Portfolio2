@@ -7,7 +7,7 @@ import About from './Routes/About';
 import Project from './Routes/Project';
 import { useEffect,useState } from 'react';
 import ClimbingBoxLoader from "react-spinners/ClimbingBoxLoader";
-
+import Particles from './components/Particles';
 
 function App() {
 
@@ -62,7 +62,7 @@ function App() {
    
  
  
-    
+     <Particles id="tsparticles" />
    </div>
    
      }

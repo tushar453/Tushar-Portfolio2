@@ -3,14 +3,17 @@ import React from "react";
 import Introimg from "../components/assests/image.jpg";
 import { NavLink } from "react-router-dom";
 import Typewriter from "typewriter-effect";
-
+import Particles from "react-tsparticles";
+import particlesConfig from "./particles-config";
 
 const Hero = () => {
   
   return (
+    
+      
     <div className="hero">
       <div className="mask">
-        <img classname="into-img" src={Introimg} alt="Introimg" />
+
        
       </div>
       <div className="content">
@@ -45,7 +48,8 @@ const Hero = () => {
 
 
 
-    </div>
+    </div> 
+   
   );
 };
 
