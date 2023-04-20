@@ -35,6 +35,9 @@
     max-width: 100px;
     max-width: 100px;
 }
+.resume{
+    margin-left: 10px;
+}
 .about .left{
     align-items: center;
     margin: 120px;

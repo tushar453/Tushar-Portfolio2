@@ -15,6 +15,7 @@ const Abouts = () => {
 
    </p>
    <NavLink to="/contact"><button className="btn">Contact</button></NavLink>
+   <NavLink to="https://publuu.com/flip-book/119199/313254/page/1" target="_blank"><button className="btn resume">Resume</button></NavLink>
     </div>
     <div className="right">
    
