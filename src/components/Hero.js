@@ -1,17 +1,26 @@
 import "./Hero.css";
-import React from "react";
-import Introimg from "../components/assests/image.jpg";
+import React, { useEffect } from "react";
+import Introimg from "../components/assests/heroimg.jpg";
+
+
 import { NavLink } from "react-router-dom";
 import Typewriter from "typewriter-effect";
 // import Particles from "react-tsparticles";
 import particlesConfig from "./particles-config";
 import Particles from './Particles';
+import { Background } from "tsparticles-engine";
 const Hero = () => {
+
+
+
+
+
+  
   
   return (
     
       
-    <div className="hero">
+    <div className="hero" >
       <div className="mask">
 
        
@@ -49,6 +58,8 @@ const Hero = () => {
       <Particles id="tsparticles" />
 
     </div> 
+    
+   
    
   );
 };
