@@ -20,15 +20,41 @@ const Projects = () => {
    <a href={resume} download><button className="btn buttonss">Resume</button></a>
 
       </div>
-      <div className="right-side"></div>
-      <div className="right-card">
+      <div className="right-side">
+         <div className="right-cards">
         <span>
           react-weather-app
         </span>
 
-        <span>details</span>
-        <button>wwedew</button>
+        <span>detaieev ferfere ferfer ferfe fvfer</span>
+        <button className="btn buttons">wwedew</button>
       </div>
+
+
+
+      <div className="right-cards">
+        <span>
+          react-weather-app
+        </span>
+
+        <span>app conatainwjhbhw bwjhb hwwfbf</span>
+        <button className="btn buttons">wwedew</button>
+      </div>
+      
+
+
+      <div className="right-cards">
+        <span>
+          react-weather-app
+        </span>
+
+        <span>rferfve erfcerfv ferferf ferfcerf fer</span>
+        <button className="btn buttons">wwedew</button>
+      </div>
+      
+      
+      </div>
+     
       </div> 
 
 
