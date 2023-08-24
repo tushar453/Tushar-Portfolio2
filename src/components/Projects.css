@@ -260,7 +260,7 @@ margin-top: 5rem;
         flex-direction: row;
         margin: 0;
         width: 36vh;
-        margin-left: -97px;
+        margin-left: -70px;
         /* background-color: #f0f0f0; */
       
 }
@@ -288,6 +288,12 @@ margin-top: 5rem;
     .card1{
         position: relative;
         left: -20rem;
+    }
+  }
+
+  @media screen and (min-width:660px) {
+    .right-side{
+        margin-left: 70px;
     }
   }
 
