@@ -221,7 +221,7 @@ margin-top: 5rem;
     .right-side{
         display: flex;
         flex-direction: row;
-        padding: 10px;
+        /* padding: 10px; */
       width: 100%;
         /* width: 1000px; */
         flex-wrap: wrap;
@@ -231,52 +231,14 @@ margin-top: 5rem;
     .left-side{
         width: 300%;
     }
-    .right-cards{
-        /* width: 100%; */
-        /* margin-left: -10rem; */
-        border: 6px solid white;
-        /* width: 10rem; */
-        /* width: 40rem; */
-        height: 15rem;
-        border-radius: 10px;
-        margin-top: 21px;
-        padding: 7rem;
-    }
+    
 
 
-    .right-cards>:nth-child(1){
-        position: relative;
-    top: -62px;
-    left: -57px;
-    font-size: 14px;
-    width: 123px;
-    color: rgb(248,217, 15);
-    }
-    .right-cards>:nth-child(2){
-        position: relative;
-    top: -30px;
-    left: -95px;
-    font-size: 14px;
-    width:209px;
-    color: #fff;
-    }
+    
+    
 
-    .right-cards>:nth-child(3){
-        position: relative;
-    top: -10px;
-    left: -60px;
-    font-size: 14px;
-    width: 123px;
-    /* color: #fff; */
-    }
-.right-side{
-    margin-left: -60px;
-}
-.buttons{
-padding: 6px;
-background-color: rgb(101, 101, 243);
-border: none;
-}
+
+
 
 }
 
@@ -289,7 +251,19 @@ border: none;
 
 
 
-
+.right-side{
+    
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        flex-direction: row;
+        margin: 0;
+        width: 36vh;
+        margin-left: -97px;
+        /* background-color: #f0f0f0; */
+      
+}
 
 
 .card-1 {
@@ -299,13 +273,23 @@ border: none;
     /* border-image: linear-gradient(to bottom right, #FF5733, #FFC300, #4CAF50, #008CBA); */
     border-image-slice: 1;
     box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
-    padding: 20px;
+    padding: 40px;
+    /* width: 14rem; */
+    height: 15rem;
+    width: 100%;
     margin: 10px;
     text-align: center;
     animation: borderAnimation 5s infinite linear;
     flex-wrap: wrap;
   }
 
+
+  @media screen and (min-width:950px) {
+    .card1{
+        position: relative;
+        left: -20rem;
+    }
+  }
 
   @keyframes borderAnimation {
     0%, 100% {

@@ -27,7 +27,7 @@ const Projects = () => {
   <button ><a href="https://nreact-weather-app-a4jo.vercel.app/" target="_blank">Visit</a></button>
 </div>
 
-<div class="card-1">
+<div class="card-1 card1">
   <h2>Zoom Clone</h2>
   <p className="p">Peer to Peer video calling</p>
   <button><a href="https://video-app-react-2of7.vercel.app/" target="_blank">Call</a></button>
