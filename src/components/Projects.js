@@ -21,37 +21,23 @@ const Projects = () => {
 
       </div>
       <div className="right-side">
-         <div className="right-cards">
-        <span>
-          react-weather-app
-        </span>
+      <div class="card-1">
+  <h2>Weather-App</h2>
+  <p className="p">App contains real-time data</p>
+  <button ><a href="https://nreact-weather-app-a4jo.vercel.app/" target="_blank">Visit</a></button>
+</div>
 
-        <span>detaieev ferfere ferfer ferfe fvfer</span>
-        <button className="btn buttons">wwedew</button>
-      </div>
+<div class="card-1">
+  <h2>Zoom Clone</h2>
+  <p className="p">Peer to Peer video calling</p>
+  <button><a href="https://video-app-react-2of7.vercel.app/" target="_blank">Call</a></button>
+</div>
 
-
-
-      <div className="right-cards">
-        <span>
-          react-weather-app
-        </span>
-
-        <span>app conatainwjhbhw bwjhb hwwfbf</span>
-        <button className="btn buttons">wwedew</button>
-      </div>
-      
-
-
-      <div className="right-cards">
-        <span>
-          react-weather-app
-        </span>
-
-        <span>rferfve erfcerfv ferferf ferfcerf fer</span>
-        <button className="btn buttons">wwedew</button>
-      </div>
-      
+<div class="card-1">
+  <h2>Card 3</h2>
+  <p className="p">Subheading 3 subheading</p>
+  <button>Button 3</button>
+</div>
       
       </div>
      
