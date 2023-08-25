@@ -182,11 +182,11 @@ margin: 1rem 0.6rem;
     
 }
 
-@media screen and (max-width:520px) and (min-width:390px) {
+@media screen and (max-width:520px) and (min-width:300px) {
     .down p{
         display: inline-block;
       width: 100%;
-      top: 4rem;
+      top: 7rem;
       left: 12rem;
       font-size: 1rem;
     }
