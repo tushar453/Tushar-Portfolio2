@@ -104,19 +104,9 @@ margin: 1rem 0.6rem;
 
 
 
-.flex{
-    display: flex;
-    flex-direction: row;
-}
 
-.left{
-    width: 50%;
-}
 
-.right
-{
-    width: 50%;
-}
+
 
 .sections{
     width: 100%;
@@ -131,67 +121,27 @@ margin: 1rem 0.6rem;
     width: 100%;
 }
 .down{
-    height: 50%;
+    /* height: 50%; */
     width: 100%;
+    padding: 100px;
     /* margin-top: 6rem; */
 }
 
-
 .down p{
-    width: 25%;
-    margin: auto ;
-    position: relative;
-    top: 13rem;
-    left: 15rem;
-    font-size: 2rem;
-    /* margin-top: 2rem; */
-    /* margin-left: 8rem; */
-    
+  font-size: 2rem;
+  position: relative;
+  top: 5rem;
+  width: 28rem;
+  margin: auto;
+  font-size: 2rem;
 }
 
-@media screen and (max-width:1500px) and (min-width:1450px) {
-    .down p{
-      width: 30%;
-    }
+@media screen and (max-width:800px) {
+  .down p{
+    font-size: 1.4rem;
+  }
 }
 
-
-@media screen and (max-width:1450px) and (min-width:1260px) {
-    .down p{
-      width: 30%;
-    }
-}
-
-@media screen and (max-width:1260px) and (min-width:500px) {
-    .down p{
-      width: 80%;
-      top: 10rem;
-      left: 15rem;
-      font-size: 1.5rem;
-    }
-    
-}
-
-@media screen and (max-width:590px) and (min-width:520px) {
-    .down p{
-      width: 100%;
-      top: 9rem;
-      left: 12rem;
-      font-size: 1rem;
-    }
-    
-}
-
-@media screen and (max-width:520px) and (min-width:300px) {
-    .down p{
-        display: inline-block;
-      width: 100%;
-      top: 7rem;
-      left: 12rem;
-      font-size: 1rem;
-    }
-    
-}
 .svg{
     width: 100%;
     height: 70%;
