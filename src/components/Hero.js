@@ -12,33 +12,34 @@ import { Background } from "tsparticles-engine";
 const Hero = () => {
   return (
     <div className="hero">
-      <div className="mask">
-    
-    <div className="sections">
-     <div className="up">
-          <img
-            className="svgs"
-            src={require("./assests/marsh.svg").default}
-            alt="/"/>
-         </div> 
-
-         <div className="down">
-             <p>
-            {" "}
-            <Typewriter
-              onInit={(typewriter) => {
-                typewriter
-                  .typeString("Hi This Is TusharKant Sharma")
-      
-                  .pauseFor(1000)
-                  .deleteAll()
-                  .typeString("I'm a  FullStack Developer.")
-                  .start();
-              }}
+      <div className="mask"></div>
+        <div className="sections">
+          <div className="up">
+            <img
+              className="svgs"
+              src={require("./assests/marsh.svg").default}
+              alt="/"
             />
-          </p></div>          
-     </div>
-    </div>
+          </div>
+
+          <div className="down">
+            <p>
+              {" "}
+              <Typewriter
+                onInit={(typewriter) => {
+                  typewriter
+                    .typeString("Hi This Is TusharKant Sharma")
+
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString("I'm a  FullStack Developer.")
+                    .start();
+                }}
+              />
+            </p>
+          </div>
+        </div>
+     
       <Particles id="tsparticles" />
     </div>
   );
