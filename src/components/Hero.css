@@ -124,47 +124,152 @@ margin: 1rem 0.6rem;
     display: flex;
     flex-direction: column;
 }
+
 .up{
-    /* height: 50vh; */
-    /* margin-left: -10vh; */
-    /* position: relative; */
-    /* top: 100px; */
-    /* top: -100px; */
-    /* opacity: 2px; */
-    /* z-index: ; */
+    height: 50%;
+    /* margin: auto; */
     width: 100%;
-    margin: auto;
-    justify-content: center;
-    justify-items: center;
-
 }
-.up img{
-
-    width: 70%;
-    margin: auto;
-
-}
-
-
 .down{
-    width: 40vh;
-    margin: auto;
-    position: relative;
-    left: 0px;
-    top: -25px;
+    height: 50%;
+    width: 100%;
+    /* margin-top: 6rem; */
 }
 
 
 .down p{
-color: #fff;
-/* font-size: 100px; */
-position: relative;
-    left: 92px;
-    top: -131px;
+    width: 25%;
+    margin: auto ;
+    position: relative;
+    top: 13rem;
+    left: 15rem;
+    font-size: 2rem;
+    /* margin-top: 2rem; */
+    /* margin-left: 8rem; */
+    
 }
 
-@media screen and (min-width:750px) {
-    .up img{
-        width: 91%;
+@media screen and (max-width:1500px) and (min-width:1450px) {
+    .down p{
+      width: 30%;
     }
 }
+
+
+@media screen and (max-width:1450px) and (min-width:1260px) {
+    .down p{
+      width: 30%;
+    }
+}
+
+@media screen and (max-width:1260px) and (min-width:500px) {
+    .down p{
+      width: 80%;
+      top: 10rem;
+      left: 15rem;
+      font-size: 1.5rem;
+    }
+    
+}
+
+@media screen and (max-width:590px) and (min-width:520px) {
+    .down p{
+      width: 100%;
+      top: 9rem;
+      left: 12rem;
+      font-size: 1rem;
+    }
+    
+}
+
+@media screen and (max-width:520px) and (min-width:390px) {
+    .down p{
+        display: inline-block;
+      width: 100%;
+      top: 4rem;
+      left: 12rem;
+      font-size: 1rem;
+    }
+    
+}
+.svg{
+    width: 100%;
+    height: 70%;
+    /* margin: auto; */
+    /* margin-left: -02rem; */
+    margin: auto;
+    margin-top: 0rem;
+}
+.svg-container{
+    width: 100%;
+    height: 100%;
+}
+/* .svg{
+    width: 100px;
+} */
+/* .svg{
+    position: absolute;
+    top: -73px;
+} */
+
+
+
+
+
+
+#eye{
+    animation: wing 2s infinite;
+}
+
+@keyframes wing {
+    0%{
+      fill: orange;
+    }
+    10%{
+  fill: #EA2CF8;
+    }
+    30%{
+      fill:#1EF2B4 ;
+    }
+    50%{
+      fill: #1E7FF2;
+    }
+    70%{
+  fill:#CDF21E ;
+    }
+    90%{
+  fill:#F2341E ;
+    }
+    100%{
+  fill: #F2D71E;
+    }
+  }
+
+
+  #wings{
+    animation: wings 2s infinite;
+  }
+
+  @keyframes wings{
+    0%{
+      fill: #EA2CF8;
+    }
+    10%{
+  
+    }
+    30%{
+      fill: #1E7FF2;
+    }
+    50%{
+      fill: orange;
+    }
+    70%{
+  fill:#1EF2B4 ;
+    }
+    90%{
+  fill:#CDF21E ;
+    }
+    100%{
+  fill:#F2341E ;
+    }
+  }
