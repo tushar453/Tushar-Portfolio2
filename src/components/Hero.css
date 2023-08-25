@@ -278,3 +278,20 @@ margin: 1rem 0.6rem;
   fill:#F2341E ;
     }
   }
+
+  #head{
+    animation: colour 5s infinite;
+  }
+
+   @keyframes colour {
+    0%{
+
+    }
+    50%{
+     fill: rgb(247, 247, 143); 
+    }
+    100%{
+
+    }
+    
+  } 
