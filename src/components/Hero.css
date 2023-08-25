@@ -199,6 +199,11 @@ margin: 1rem 0.6rem;
     /* margin-left: -02rem; */
     margin: auto;
     margin-top: 0rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+   
+
 }
 .svg-container{
     width: 100%;
