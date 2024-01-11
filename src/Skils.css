@@ -1,0 +1,23 @@
+.containerer{
+    /* background: #000; */
+    height: 90vh;
+    width: 100%;
+  
+}
+.heading-4{
+  
+    width: 100px;
+    margin: auto;
+}
+.svg{
+    size: 10px;
+}
+.skill{
+    height: 100%;
+    width: 100%;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-around;
+}
+
+

@@ -2,7 +2,7 @@ import React from "react";
 import Navbar from "../components/Navbar";
 
 import Hero2 from "../components/Hero2";
-import Skils from "../components/assests/Skils"
+import Skils from "../Skils";
 import Abouts from "../components/Abouts";
 const About = () => {
   return (

@@ -24,7 +24,7 @@ const Navbar = () => {
 <NavLink to ="/"><h1 className="name">Tushar.</h1></NavLink>
 <ul className= "social-icons">
     <li>
-<NavLink to="https://www.instagram.com/indoriya_tushar789/" target="_blank"><i class="fab fa-instagram"></i></NavLink>
+<NavLink to="https://github.com/tushar453" target="_blank"><i class="fab fa-github"></i></NavLink>
   </li>
   <li>
   <NavLink to="https://www.linkedin.com/in/tusharkant-sharma-6751b3227/" target="_blank"><i class="fab fa-linkedin-in"></i></NavLink>
@@ -35,11 +35,11 @@ const Navbar = () => {
 </div> 
 <ul className={click ?"nav-menu active":"nav-menu"}>
    
-      <li><NavLink to ="/">Home</NavLink></li>
-      <li><NavLink to = "/project">Projects</NavLink></li>  
-       <li><NavLink to = "/about">About</NavLink></li> 
+      <li><NavLink to ="/"><span>01.</span> Home</NavLink></li>
+      <li><NavLink to = "/project"><span>02.</span> Projects</NavLink></li>  
+       <li><NavLink to = "/about"><span>03.</span> About</NavLink></li> 
       
-      <li><NavLink to = "/contact">Contact</NavLink></li> 
+      <li><NavLink to = "/contact"><span>04.</span> Contact</NavLink></li> 
     
 </ul>
 <div className="hamburger" onClick={handleclick}>

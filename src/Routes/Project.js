@@ -7,7 +7,7 @@ const Project = () => {
   return (
     <div>
       {<Navbar/>} 
-      {<Hero2 heading = "PROJECTS." text = "Checkout My Projects"/>}
+      {/* {<Hero2 heading = "PROJECTS." text = "Checkout My Projects"/>} */}
       <Projects/>
        
     </div>
