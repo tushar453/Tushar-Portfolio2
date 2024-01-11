@@ -1,11 +1,142 @@
-.footer{
-    width: 100%;
-    height: 100px;
-    
-}
-.h3{
+
+
+.card-container-7 {
+ 
+    perspective: 1000px;
+    width: 80%;
+    display: grid;
+    gap: 70px;
+    /* ma */
     margin: auto;
-    color: #fff;
-    display: inline-block;
+    grid-template-columns: repeat(3, 1fr);
+     /* Adjust the gap according to your design */
+    /* flex-wrap: wrap; */
+    /* flex-shrink: stroke; */
+    /* justify-content: space-between; */
+    /* margin: auto; */
+  }
+  
+  .card-7 {
    
-}
+    width: 300px;
+    height: 400px;
+    transform-style: preserve-3d;
+    transition: transform 0.5s;
+    /* margin-left: 40px; */
+  
+  }
+  
+  .card-7:hover  {
+    z-index: 35346534;
+    
+    transform: rotateY(-33deg);
+  }
+  
+  .card-7:hover .card-back-7 {
+    
+    transform: translateX(70px) rotateZ(10deg) ;
+    /* transform: rotateZ(30deg); */
+  }
+  
+   .card-back-7 {
+    position: absolute;
+    right: 5px;
+  
+    bottom: 30px;
+    width: 70%;
+    transition: 1s;
+    height: 70%;
+    background: #f8d90f;
+    z-index: -22;
+    border: 1px solid var(--expcard-cta-border);
+    border-radius: 10px;
+    transition: .5s;
+  }
+  .card-front-7 {
+    width: 100%;
+    border: 1px solid rgba(100, 255, 217, 0.8);
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(100, 255, 217, 0.8); 
+    height: 100%;
+    transition: 1s;
+    position: absolute;
+    backface-visibility: hidden;
+  }
+  
+  .card-front-7 {
+    background-color: #0a192f;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .content-7{
+    padding-top: 13px;
+    padding-left: 20px;
+    font-family: 'Roboto Mono', monospace;
+    
+    width: 100%;height: 100%;
+    color: rgba(100, 255, 217, 0.8);
+   
+  }
+  .icons-profile-7{
+    margin-top: 15px;
+    height: 0%;
+    width: 20%;
+    /* border: 1px solid green; */
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  
+  .badges-7{
+    /* border: 2px solid red; */
+    width: 95%;
+    height: 120px;
+    display: flex;
+  }
+  .badge-1-7{
+    /* border: 1px solid green; */
+    height: 100%;
+    width: 50%;
+    background-position: center;
+    background-size: cover;
+  }
+  
+  .content-7 p {
+    font-family: 'Roboto Mono', monospace;
+  color: #fff;
+  }
+
+  .content-7 h5 {
+    font-family: 'Roboto Mono', monospace;
+    font-size: 15px;
+    }
+  
+  .content-details-7{
+    width: 90%;
+    height: 70%;
+    /* border: 2px solid red; */
+  }
+
+  .content-details-7 p span{
+    color: red;
+  }
+  
+  .card-back-7 p {
+    position: absolute;
+    top: 30%;
+    right: 0px;
+    transform: rotate(90deg);
+    color: #fff;
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+  }
+  
+  .card-back-7 p{
+    color: #000;
+  }

@@ -4,8 +4,10 @@ import Introi from "../components/assests/signature1.png";
 import Intro from "../components/assests/tushar.jpeg"
 
 import { NavLink } from "react-router-dom";
+import Skills from "./Skills";
 const Abouts = () => {
   return (
+    <>
     <section id="feature-section" class="feature-section">
       <div class="flex-container w-container">
         <div class="feature-image-mask">
@@ -52,6 +54,8 @@ const Abouts = () => {
          
         </div>
     </section>
+    <Skills/>
+    </>
   );
 };
 
