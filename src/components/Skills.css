@@ -29,7 +29,7 @@
   .card-7:hover  {
     z-index: 35346534;
     
-    transform: rotateY(-33deg);
+    transform: rotateY(-12deg);
   }
   
   .card-7:hover .card-back-7 {
@@ -105,6 +105,12 @@
     background-size: cover;
   }
   
+  .badge-1-9{
+    height: 100%;
+    width: 40%;
+    background-position: center;
+    background-size: cover;
+  }
   .content-7 p {
     font-family: 'Roboto Mono', monospace;
   color: #fff;

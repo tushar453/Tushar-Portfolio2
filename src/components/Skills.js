@@ -3,6 +3,8 @@ import "./Skills.css";
 import { FaBars, FaTimes } from "react-icons/fa";
 import badge1 from "./assests/badge-1.png";
 import badge2 from "./assests/badge-2.png";
+import badge3 from "./assests/badge-9.svg";
+import badge5 from "./assests/badge-5.webp";
 import github from "./assests/github.png";
 import leetcode from "./assests/LEETCODE.svg";
 import ninja from './assests/ninajas.png'
@@ -49,21 +51,21 @@ const Skills = () => {
           <div class="content-7">
             <h5>COMPETITIVE PROGRAMMING</h5>
             <div class="content-details-7">
-              <p>Username : </p>
-              <p>Total Commits(2023): </p>
-              <p>Total Pull Rquests:</p>
+              <p>Username :sharmatushar </p>
+              <p>Level: 5(Champion)</p>
+              <p>Total Problem Solved:100</p>
               <p>Badges</p>
               {/*  style={{ backgroundImage: `url(${})`, height:'400px'  }} */}
               <div class="badges-7">
-                {/* <div
-                  class="badge-1-7"
-                  style={{ backgroundImage: `url(${badge1})`, height: "120px" }}
+                 <div
+                  class="badge-1-9"
+                  style={{ backgroundImage: `url(${badge3})`, height: "100px" ,width: "100px"  }}
                 ></div>
-                <div
+               <div
                   class="badge-1-7"
-                  style={{ backgroundImage: `url(${badge2})`, height: "120px" }}
-                ></div> */}
-                No Badges Yet!
+                  style={{ backgroundImage: `url(${badge5})`, height: "120px" }}
+                ></div>
+                
               </div>
             </div>
             <div
@@ -119,12 +121,12 @@ const Skills = () => {
       <div class="card-7">
         <div class="card-front-7">
           <div class="content-7">
-            <h5>Participated In SIH 2023 ,2024</h5>
+            <h5>Participated In SIH 2022 ,2023</h5>
             <div class="content-details-7">
-           <p>I Participated in <span>SMART INDIA HACATHHON</span> two times , in year 2023 & 2024 
+           <p>I Participated in <span>SMART INDIA HACATHHON</span> two times , in year 2022 & 2023 
            
-           .In 2023 I went to Presidency University ,Bangalore to represent NIT Hamirpur in Semifinal Round of SIH 2023.
-           In Consecutive year 2024 ,i was able to pass the college level screening for Upcoming SIH 2024
+           .In 2022 I went to Presidency University ,Bangalore to represent NIT Hamirpur in Semifinal Round of SIH 2022.
+           In Consecutive year 2023 ,i was able to pass the college level screening for Upcoming SIH 2023
 
            
            
