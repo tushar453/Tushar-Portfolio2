@@ -337,6 +337,18 @@ font-size:20px;
   
   @media (max-width: 768px) {
 
+    .card-container-7 {
+      perspective: 1000px;
+      width: 80%;
+      display: grid;
+      gap: 70px;
+      margin: 317px auto;
+      grid-template-columns: repeat(3, 1fr);
+      /* flex-wrap: wrap; */
+      /* justify-content: space-between; */
+      /* margin: auto; */
+  }
+
     .column-3 h3 {
       margin-left: 60px;
       color: rgb(248,217, 15);
